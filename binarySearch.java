@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class binarySearch {
     public static void main(String args[]) {
         int c, first, last, middle, n, search, array[];
