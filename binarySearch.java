@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class binarySearch {
     public static void main(String args[]) {
         int c, first, last, middle, n, search, array[];
@@ -27,5 +28,6 @@ class binarySearch {
         }
         if (first > last)
             System.out.println(search + " is not present in the list.\n");
+        in.close();
     }
 }
